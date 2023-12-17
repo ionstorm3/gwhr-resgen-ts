@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <Authors>Gwhr Engineering</Authors>
+        <Copyright>2023 All Rights Reserved</Copyright>
+        <Company>Gwhr.io</Company>
+        <Product>Gwhr ResourceG enerator</Product>
+        <AssemblyName>tsresgen</AssemblyName>
+        <PublishAot>true</PublishAot>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+    
+
+</Project>
