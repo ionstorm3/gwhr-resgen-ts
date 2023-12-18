@@ -14,11 +14,12 @@ public class GhFileParser
         }
 
         //Get the base resource file
+        foreach (string file in  Directory.GetFiles(dirPath, "*.res"))
+        {
+            Console.WriteLine(file);
+        }
+
         List<FileInfo> files = Directory.GetFiles(dirPath, "*.res").Select(x => new FileInfo(x)).ToList();
-
-
-        // List<string> files = Directory.GetFiles(dirPath, "*.res").ToList();
-
 
         //Get the root file
         FileInfo? rootFile = files.FirstOrDefault(x => x.Name.Count(y => y == '.') == 1);

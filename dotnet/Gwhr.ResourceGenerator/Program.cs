@@ -1,4 +1,6 @@
-﻿using Gwhr.ResourceGenerator.Models;
+﻿using System;
+using System.Threading.Tasks;
+using Gwhr.ResourceGenerator.Models;
 using Gwhr.ResourceGenerator.Translators.Typescript;
 
 namespace Gwhr.ResourceGenerator;

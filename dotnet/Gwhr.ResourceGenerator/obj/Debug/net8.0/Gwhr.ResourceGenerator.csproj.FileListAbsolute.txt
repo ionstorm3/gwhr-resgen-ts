@@ -1,0 +1,15 @@
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/bin/Debug/net8.0/tsresgen
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/bin/Debug/net8.0/tsresgen.deps.json
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/bin/Debug/net8.0/tsresgen.runtimeconfig.json
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/bin/Debug/net8.0/tsresgen.dll
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/bin/Debug/net8.0/tsresgen.pdb
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/Gwhr.ResourceGenerator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/Gwhr.ResourceGenerator.AssemblyInfoInputs.cache
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/Gwhr.ResourceGenerator.AssemblyInfo.cs
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/Gwhr.ResourceGenerator.csproj.CoreCompileInputs.cache
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/Gwhr.ResourceGenerator.sourcelink.json
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/tsresgen.dll
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/refint/tsresgen.dll
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/tsresgen.pdb
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/Gwhr.ResourceGenerator.genruntimeconfig.cache
+/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/obj/Debug/net8.0/ref/tsresgen.dll

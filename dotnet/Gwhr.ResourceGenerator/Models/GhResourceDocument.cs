@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Gwhr.ResourceGenerator.Models;
 
 public class GhResourceDocument
