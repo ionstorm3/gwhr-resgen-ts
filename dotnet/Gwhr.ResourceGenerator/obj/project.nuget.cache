@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PAhioNeElVh4tGfnjJ6Qw9jEHUz4t6kq8K5ULYT9+A7QKrZJjn5X0rP20UyvhvLsGPXtN/+UnyOdZ2CviMtsTw==",
+  "dgSpecHash": "CYOxearTbd0G4nk1xoOM2FhZWzRUY3EgMokH2q/zQiEIgQsX+CI5I2S/O47DxxGMXLz5R3wBsgnpjeqFuCiU6A==",
   "success": true,
   "projectFilePath": "/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/Gwhr.ResourceGenerator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/gregory/.nuget/packages/microsoft.net.illink.tasks/8.0.0/microsoft.net.illink.tasks.8.0.0.nupkg.sha512",
+    "/Users/gregory/.nuget/packages/microsoft.netcore.app.runtime.osx-arm64/8.0.0/microsoft.netcore.app.runtime.osx-arm64.8.0.0.nupkg.sha512",
+    "/Users/gregory/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-arm64/8.0.0/microsoft.aspnetcore.app.runtime.osx-arm64.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

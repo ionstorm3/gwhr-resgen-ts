@@ -1,1 +1,11 @@
 .idea
+/.idea/**/*
+/**/.idea/*
+
+/**/node_modules/*
+/**/build/*
+*.d.ts
+*.js.map
+*.js
+*.tsbuildinfo
+*.DS_Store

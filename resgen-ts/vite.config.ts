@@ -1,7 +1,7 @@
 import {defineConfig} from "vite";
-import ResourceGeneratorPlugin from "./src/plugins/resgenVitePlugin";
+import ResGen from "./src/plugins/resgenPlugin";
 
 export default defineConfig({
-    plugins: [ResourceGeneratorPlugin(['src/**/*.res'])]
+    plugins: [ResGen({globs: ['src/**/*.res']})]
     //plugins: [react(), watcher(['src/**/*.res'])],
 });

@@ -45,7 +45,10 @@ export class GhStringUtils {
         return output;
     }
 
-    // public static format():string{
-    //
-    // }
+    public static format(target: string, ...args: string[]): string {
+        for (let i: number = 0; i < args.length; i++) {
+            target = target.replaceAll(`{${i}}`, args[i]);
+        }
+        return target;
+    }
 }

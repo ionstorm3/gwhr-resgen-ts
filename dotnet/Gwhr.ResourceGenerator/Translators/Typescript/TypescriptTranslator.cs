@@ -12,7 +12,7 @@ public class TypescriptTranslator : ITranslator
     private readonly string _tplClass = "import {{{1}}} from './{3}'; \n\nexport class {0} implements {1} {{{2}}}";
     private readonly string _tplClassProperty = "\n\tpublic get {0}(): string {{\n\t\treturn \"{1}\";\n\t}}\n";
     private readonly string _tplInterface = "export interface {0} {{ {1} \n}}";
-    private readonly string _tplInterfaceProperty = "\n\treadonly {0}: string;";
+    private readonly string _tplInterfaceProperty = "\n\t/** {1} */\n\treadonly {0}: string;";
 
     private readonly GhResourceDocument _document;
 
@@ -25,8 +25,7 @@ public class TypescriptTranslator : ITranslator
     private string ClassName => _document.Name.ToPascalCase();
     private string ClassFileName => $"{_document.Name.ToCamelCase()}.ts";
     private string InterfaceName => $"I{_document.Name.ToPascalCase()}";
-    private string InterfaceImportName => $"i{_document.Name.ToPascalCase()}";
-    private string InterfaceFileName => $"i{_document.Name.ToCamelCase()}.ts";
+    private string InterfaceFileName => $"i{_document.Name.ToPascalCase()}.ts";
 
 
     public async Task SaveAsync()
@@ -49,7 +48,7 @@ public class TypescriptTranslator : ITranslator
 
         foreach (KeyValuePair<string, GhResourceItem> item in _document.Items)
         {
-            body.Append(string.Format(_tplInterfaceProperty, item.Key.ToCamelCase()));
+            body.Append(string.Format(_tplInterfaceProperty, item.Key.ToCamelCase(), item.Value.Comment));
         }
 
         string content = string.Format(_tplInterface, InterfaceName, body);
