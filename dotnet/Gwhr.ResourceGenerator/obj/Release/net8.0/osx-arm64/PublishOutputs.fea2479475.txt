@@ -1,2 +1,0 @@
-/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/bin/Release/net8.0/osx-arm64/publish/tsresgen.pdb
-/Users/gregory/Development/gwhr/ts-resgen/dotnet/Gwhr.ResourceGenerator/bin/Release/net8.0/osx-arm64/publish/tsresgen
