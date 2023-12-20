@@ -1,0 +1,11 @@
+.*
+.*.json
+tsconfig.json
+tests
+demo
+coverage
+src
+samples
+vite.config.js
+vite.config.d.ts
+vite.config.ts

@@ -1,20 +1,37 @@
 {
-  "name": "resgen-ts",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "@gwhr-io/resgen-ts",
+  "author": "Gregory Hawkes-Robinson",
+  "description": "Generate typescript files for text resource files",
+  "version": "0.0.1",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ionstorm3/ts-resgen"
+  },
+  "keywords": [
+    "restext",
+    "resx",
+    "resource generator",
+    "localization",
+    "typescript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ionstorm3/ts-resgen",
   "devDependencies": {
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "@types/node": "^20.10.5",
+    "rollup": "^4.9.1"
   },
   "dependencies": {
-    "@types/node": "^20.10.5",
-    "glob": "^10.3.10",
-    "rollup": "^4.9.1"
+    "glob": "^10.3.10"
   }
 }

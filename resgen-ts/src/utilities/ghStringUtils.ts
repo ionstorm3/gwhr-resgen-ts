@@ -47,7 +47,10 @@ export class GhStringUtils {
 
     public static format(target: string, ...args: string[]): string {
         for (let i: number = 0; i < args.length; i++) {
-            target = target.replaceAll(`{${i}}`, args[i]);
+            //This is so I don't need to use string.replaceAll
+            while (target.includes(`{${i}}`)) {
+                target = target.replace(`{${i}}`, args[i]);
+            }
         }
         return target;
     }
