@@ -1,11 +1,10 @@
 {
-  "name": "@gwhr-io/resgen-ts",
+  "name": "gwhr-resgen-ts",
   "author": "Gregory Hawkes-Robinson",
   "description": "Generate typescript files for text resource files",
   "version": "0.0.1",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
-  "types": "dist/index.d.ts",
   "files": [
     "lib/"
   ],
